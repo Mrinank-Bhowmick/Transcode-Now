@@ -25,42 +25,18 @@ const Hero = () => {
       >
         {/* Left cursors */}
         <div className="hidden sm:block absolute left-32 bottom-52 opacity-0 animate-[slideFromLeft_1s_ease-out_0.2s_forwards]">
-          <Image
-            src="https://ui.metamorix.com/favicon.ico"
-            alt="ResQ Health Logo"
-            width={32}
-            height={40}
-            className="h-10 w-8"
-          />
+          <Image src="/images/cursor.png" alt="" width={40} height={40} />
         </div>
         <div className="hidden sm:block absolute left-64 bottom-20 opacity-0 animate-[slideFromLeft_1s_ease-out_0.4s_forwards]">
-          <Image
-            src="https://ui.metamorix.com/favicon.ico"
-            alt="Metamorix Logo"
-            width={32}
-            height={40}
-            className="h-10 w-8"
-          />
+          <Image src="/images/cursor.png" alt="" width={40} height={40} />
         </div>
 
         {/* Right cursors */}
         <div className="hidden sm:block absolute right-32 bottom-52 opacity-0 animate-[slideFromRight_1s_ease-out_0.6s_forwards]">
-          <Image
-            src="https://ui.metamorix.com/favicon.ico"
-            alt="Metamorix Logo"
-            width={32}
-            height={40}
-            className="h-10 w-8"
-          />
+          <Image src="/images/cursor.png" alt="" width={40} height={40} />
         </div>
         <div className="hidden sm:block absolute right-64 bottom-20 opacity-0 animate-[slideFromRight_1s_ease-out_0.8s_forwards]">
-          <Image
-            src="https://ui.metamorix.com/favicon.ico"
-            alt="Metamorix Logo"
-            width={32}
-            height={40}
-            className="h-10 w-8"
-          />
+          <Image src="/images/cursor.png" alt="" width={40} height={40} />
         </div>
         <div className="absolute left-1/2 top-1/3 -z-50 h-[30vh] w-[70vw] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 opacity-80 blur-[100px] brightness-75" />
         <div className="mx-auto max-w-2xl md:py-16 py-28 px-4 sm:px-0">
@@ -112,13 +88,7 @@ const Header = () => {
     <header className="relative w-full">
       <div className="mx-auto flex items-center justify-between px-8 py-2">
         <div>
-          <Image
-            src="https://ui.metamorix.com/favicon.ico"
-            alt="Metamorix Logo"
-            width={32}
-            height={40}
-            className="h-10 w-8"
-          />
+          <Image src="/images/logo.png" alt="logo" width={40} height={40} />
           <p className="text-base">
             <span className="font-bold">Transcode</span>
             NOW
