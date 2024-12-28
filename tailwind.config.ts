@@ -9,7 +9,37 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        slideFromLeft: {
+          "0%": { opacity: "0", transform: "translateX(-50px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        slideFromRight: {
+          "0%": { opacity: "0", transform: "translateX(50px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        slideUp: {
+          "0%": { opacity: "0", transform: "translateY(100px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        slideInFromBottom: {
+          "0%": { opacity: "0", transform: "translateY(50px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        slideFromLeft: "slideFromLeft 1s ease-out",
+        slideFromRight: "slideFromRight 1s ease-out",
+        slideUp: "slideUp 1s ease-out",
+        fadeIn: "fadeIn 1s ease-out",
+        slideInFromBottom: "slideInFromBottom 1s ease-out",
+      },
       colors: {
+        "stone-850": "#26221f",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

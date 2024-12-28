@@ -8,8 +8,8 @@ const page = () => {
     <div className="flex h-screen">
       <Sidebar title="TranscodeNow" sidebarItems={sidebarItems} />
       <div className="w-full">
-        <div className="p-6">
-          <h1 className="text-2xl font-bold">Dashboard</h1>
+        <div className="p-6 md:ml-0 ml-10">
+          <h1 className="text-2xl font-bold">Transcoder</h1>
         </div>
       </div>
     </div>
